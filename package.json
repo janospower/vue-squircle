@@ -1,0 +1,37 @@
+{
+  "name": "vue-squircle",
+  "version": "1.0.0",
+  "description": "Smooth rounded corners (like iOS) for Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janospower/vue-squircle.git"
+  },
+  "keywords": [
+    "vue",
+    "border-radius",
+    "smooth",
+    "smooth",
+    "corners",
+    "ios",
+    "squircle",
+    "corner",
+    "smoothing",
+    "rounded",
+    "corners",
+    "ui",
+    "continuous",
+    "curve",
+    "corner",
+    "curve"
+  ],
+  "author": "Janos Pauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janospower/vue-squircle/issues"
+  },
+  "homepage": "https://github.com/janospower/vue-squircle#readme"
+}
