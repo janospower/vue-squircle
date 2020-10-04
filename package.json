@@ -1,10 +1,12 @@
 {
+  "private": false,
   "name": "vue-squircle",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Smooth rounded corners (like iOS) for Vue",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vue serve VSquircle.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
   },
   "repository": {
     "type": "git",
@@ -14,24 +16,27 @@
     "vue",
     "border-radius",
     "smooth",
-    "smooth",
-    "corners",
     "ios",
     "squircle",
-    "corner",
     "smoothing",
     "rounded",
     "corners",
     "ui",
     "continuous",
-    "curve",
     "corner",
     "curve"
   ],
   "author": "Janos Pauer",
-  "license": "ISC",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
   "bugs": {
     "url": "https://github.com/janospower/vue-squircle/issues"
   },
-  "homepage": "https://github.com/janospower/vue-squircle#readme"
+  "homepage": "https://github.com/janospower/vue-squircle#readme",
+  "devDependencies": {
+    "bili": "^5.0.5",
+    "rollup-plugin-vue": "^6.0.0-beta.10"
+  }
 }
