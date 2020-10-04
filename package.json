@@ -37,6 +37,7 @@
   "homepage": "https://github.com/janospower/vue-squircle#readme",
   "devDependencies": {
     "bili": "^5.0.5",
-    "rollup-plugin-vue": "^6.0.0-beta.10"
+    "rollup-plugin-vue": "^5.1.1",
+    "vue-template-compiler": "^2.5.17"
   }
 }

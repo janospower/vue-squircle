@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="v-squircle" :style="style">
     <div class="v-squircle--background">
       <div class="v-squircle--segment v-squircle--segment--top-left"></div>
