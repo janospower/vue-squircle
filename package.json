@@ -24,7 +24,8 @@
     "ui",
     "continuous",
     "corner",
-    "curve"
+    "curve",
+    "superellipse"
   ],
   "author": "Janos Pauer",
   "license": "MIT",
