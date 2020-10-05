@@ -1,5 +1,5 @@
 /*!
- * vue-squircle v0.0.1
+ * vue-squircle v0.0.2
  * (c) Janos Pauer
  * Released under the MIT License.
  */
