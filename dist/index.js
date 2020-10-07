@@ -1,5 +1,5 @@
 /*!
- * vue-squircle v0.0.2
+ * vue-squircle v0.1.0
  * (c) Janos Pauer
  * Released under the MIT License.
  */
@@ -239,7 +239,7 @@ var __vue_render__ = function __vue_render__() {
   var _c = _vm._self._c || _h;
 
   return _c('div', {
-    staticClass: "v-squircle active",
+    "class": ['v-squircle', _vm.active],
     style: _vm.style
   }, [_vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "v-squircle--slot"
@@ -279,8 +279,8 @@ var __vue_staticRenderFns__ = [function () {
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-43527ccf_0", {
-    source: ".v-squircle[data-v-43527ccf]{display:grid}.v-squircle--background[data-v-43527ccf]{display:grid;grid-template:var(--v-squircle-radius) auto var(--v-squircle-radius)/var(--v-squircle-radius) auto var(--v-squircle-radius)}.v-squircle--segment[data-v-43527ccf]{width:var(--v-squircle-radius);height:var(--v-squircle-radius);clip-path:var(--v-squircle-polygon)}.v-squircle--filler[data-v-43527ccf],.v-squircle--segment[data-v-43527ccf]{background-color:var(--v-squircle-background)}.v-squircle--segment--bottom-left[data-v-43527ccf]{transform:rotate(90deg)}.v-squircle--segment--top-left[data-v-43527ccf]{transform:rotate(180deg)}.v-squircle--segment--top-right[data-v-43527ccf]{transform:rotate(270deg)}.v-squircle--background[data-v-43527ccf],.v-squircle--slot[data-v-43527ccf]{grid-area:1/1/1/1}.v-squircle--slot[data-v-43527ccf]{padding:var(--v-squircle-padding)}",
+  inject("data-v-70e0c5d7_0", {
+    source: ".v-squircle[data-v-70e0c5d7]{display:grid}.v-squircle--background[data-v-70e0c5d7]{display:grid;grid-template:var(--v-squircle-radius) auto var(--v-squircle-radius)/var(--v-squircle-radius) auto var(--v-squircle-radius)}.v-squircle--segment[data-v-70e0c5d7]{width:var(--v-squircle-radius);height:var(--v-squircle-radius);clip-path:var(--v-squircle-polygon)}.v-squircle--filler[data-v-70e0c5d7],.v-squircle--segment[data-v-70e0c5d7]{background-color:var(--v-squircle-background)}.v-squircle--segment--bottom-left[data-v-70e0c5d7]{transform:rotate(90deg)}.v-squircle--segment--top-left[data-v-70e0c5d7]{transform:rotate(180deg)}.v-squircle--segment--top-right[data-v-70e0c5d7]{transform:rotate(270deg)}.v-squircle--background[data-v-70e0c5d7],.v-squircle--slot[data-v-70e0c5d7]{grid-area:1/1/1/1}.v-squircle--slot[data-v-70e0c5d7]{padding:var(--v-squircle-padding)}",
     map: undefined,
     media: undefined
   });
@@ -288,7 +288,7 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-43527ccf";
+var __vue_scope_id__ = "data-v-70e0c5d7";
 /* module identifier */
 
 var __vue_module_identifier__ = undefined;

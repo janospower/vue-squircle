@@ -1,5 +1,5 @@
 <template>
-  <div class="v-squircle active" :style="style">
+  <div :class="['v-squircle', active]" :style="style">
     <div class="v-squircle--background">
       <div class="v-squircle--segment v-squircle--segment--top-left"></div>
       <div class="v-squircle--filler"></div>
