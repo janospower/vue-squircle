@@ -1,5 +1,5 @@
 <template>
-  <div :class="['v-squircle', active]" :style="style">
+  <div class="v-squircle" :style="style">
     <div class="v-squircle--background">
       <div class="v-squircle--segment v-squircle--segment--top-left"></div>
       <div class="v-squircle--filler"></div>
@@ -41,7 +41,6 @@ export default {
   data() {
     return {
       polygon: [],
-      active: null,
     }
   },
   methods: {
@@ -65,7 +64,8 @@ export default {
      .map(({ x, y }) => ({ x: Math.round(x * 10)/10, y: Math.round(y * 10)/10 })) // Round to the ones place
      .map(({ x, y }) => `${(x-50)*2}% ${(y-50)*2}%`);
     this.polygon.push('0% 0%');
-    this.active = 'v-squircle--active';
+    this.$emit("mounted")
+    console.log("mounted");
   },
   computed: {
     style () {
