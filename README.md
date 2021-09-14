@@ -25,7 +25,7 @@ And use it like this
 ```
 <v-squircle
  radius="40px"
- smoothing="10"
+ :smoothing="10"
  padding="20rem"
  background="red" >
     Your content goes here!
