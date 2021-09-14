@@ -65,7 +65,6 @@ export default {
      .map(({ x, y }) => `${(x-50)*2}% ${(y-50)*2}%`);
     this.polygon.push('0% 0%');
     this.$emit("mounted")
-    console.log("mounted");
   },
   computed: {
     style () {
